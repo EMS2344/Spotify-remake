@@ -1,3 +1,9 @@
+:root {
+  --main-color: #0b132b;
+  --main-hover: rgba(125, 119, 119, 0.39);
+  --main-font: "Roboto Mono", monospace;
+}
+
 body {
   background-color: black;
   position: fixed;
@@ -11,20 +17,41 @@ body {
   font-size: 15px;
   background-color: #0b132b;
 }
+.box10 {
+  width: 327px;
+  position: relative;
+  height: 593px;
+  top: -1333px;
+  left: 1170px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  overflow-y: auto;
+}
+.box11 {
+  position: relative;
+  height: 150px;
+  top: -2083px;
+  left: 1170px;
+  width: 325px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+}
 .box2 {
   width: 350px;
   height: 120px;
   position: relative;
   top: 10px;
   border-radius: 5px 5px 0px 0px;
-  background-color: #0b132b;
+  background-color: var(--main-color);
 }
 .box3 {
   width: 350px;
-  height: 550px;
+  height: 490px;
   position: relative;
   top: 10px;
   background-color: #0b132b;
+  overflow-y: auto;
+  border-radius: 0px 0px 5px 5px;
 }
 .name1 {
   position: relative;
@@ -43,8 +70,8 @@ body {
   width: 800px;
   left: 360px;
   position: relative;
-  height: 810px;
-  top: -800px;
+  height: 750px;
+  top: -740px;
   border-radius: 5px;
   overflow-y: auto;
 }
@@ -70,7 +97,6 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: gray; /* change the color as desired */
   color: white;
   position: relative;
   left: 20px;
@@ -227,6 +253,7 @@ body {
   position: relative;
   left: 20px;
   top: -80px;
+  display: flex;
 }
 .box9:hover {
   background: rgba(125, 119, 119, 0.39);
@@ -259,4 +286,250 @@ body {
   color: gray;
   font-family: "Roboto Mono", monospace;
   font-size: 13px;
+}
+.minibox {
+  position: relative;
+  top: 50px;
+  background-color: var(--main-color);
+  height: 70px;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.minibox:hover {
+  background-color: var(--main-hover);
+}
+
+.miniimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  top: 8px;
+}
+
+.desc {
+  font-family: var(--main-font);
+  font-size: 15px;
+  color: white;
+  position: relative;
+  left: 20px;
+  text-decoration: none;
+  top: -20px;
+}
+.circle4 {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-family: var(--main-font);
+  position: relative;
+  top: 5px;
+}
+.circle5 {
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  position: relative;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: 0.5s ease;
+  top: 80px;
+}
+.circle5:hover {
+  background-color: rgba(177, 169, 169, 0.39);
+}
+
+.circle6 {
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  position: relative;
+  left: 110px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: 0.5s ease;
+  top: 50px;
+}
+.circle6:hover {
+  background-color: rgba(177, 169, 169, 0.39);
+}
+
+.circle8 {
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  position: relative;
+  left: 180px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: 0.5s ease;
+  top: 20px;
+}
+.circle8:hover {
+  background-color: rgba(177, 169, 169, 0.39);
+}
+.circle10 {
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  position: relative;
+  left: 258px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: 0.5s ease;
+  top: -10px;
+}
+.circle10:hover {
+  background-color: rgba(177, 169, 169, 0.39);
+}
+
+.prof1 {
+  width: 70px;
+  border-radius: 3px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.prof2 {
+  width: 70px;
+  border-radius: 3px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.wel {
+  color: white;
+  font-family: var(--main-font);
+  position: relative;
+  left: 120px;
+  font-size: 20px;
+  top: -60px;
+}
+.fri {
+  color: white;
+  font-family: var(--main-font);
+  position: relative;
+  left: 20px;
+  top: 20px;
+  width: 300px;
+}
+.user1 {
+  color: white;
+  font-family: var(--main-font);
+  position: relative;
+  top: -80px;
+  left: 100px;
+  width: 100px;
+}
+.song {
+  color: gray;
+  font-family: var(--main-font);
+  font-size: 10px;
+  position: relative;
+  top: -90px;
+  text-decoration: none;
+  left: 95px;
+}
+.song:hover {
+  text-decoration: underline;
+}
+.album {
+  color: gray;
+  font-family: var(--main-font);
+  font-size: 10px;
+  position: relative;
+  top: -70px;
+  left: -110px;
+  text-decoration: none;
+}
+.album:hover {
+  text-decoration: underline;
+}
+.album1 {
+  color: gray;
+  font-family: var(--main-font);
+  font-size: 10px;
+  position: relative;
+  top: -165px;
+  left: 2px;
+  text-decoration: none;
+}
+.album1:hover {
+  text-decoration: underline;
+}
+.song1 {
+  color: gray;
+  font-family: var(--main-font);
+  font-size: 10px;
+  position: relative;
+  top: -185px;
+  text-decoration: none;
+  left: 95px;
+}
+.song1:hover {
+  text-decoration: underline;
+}
+.prof3 {
+  width: 70px;
+  border-radius: 3px;
+  position: relative;
+  top: 30px;
+  left: -130px;
+}
+.song2 {
+  color: gray;
+  font-family: var(--main-font);
+  font-size: 10px;
+  position: relative;
+  top: -90px;
+  text-decoration: none;
+  left: 98px;
+}
+.song2:hover {
+  text-decoration: underline;
+}
+.album2 {
+  color: gray;
+  font-family: var(--main-font);
+  font-size: 10px;
+  position: relative;
+  top: -70px;
+  left: -61px;
+  text-decoration: none;
+}
+.album2:hover {
+  text-decoration: underline;
+}
+.prof4 {
+  width: 70px;
+  border-radius: 3px;
+  position: relative;
+  top: 15px;
+  left: 23px;
+}
+.box12 {
+  width: 200px;
+  height: 290px;
+  background: rgba(125, 119, 119, 0.22);
+  border-radius: 5px;
+  position: relative;
+  left: 300px;
+  top: -365px;
+}
+.box12:hover {
+  background: rgba(125, 119, 119, 0.39);
+}
+.box13 {
+  width: 200px;
+  height: 290px;
+  background: rgba(125, 119, 119, 0.22);
+  border-radius: 5px;
+  position: relative;
+  left: 580px;
+  top: -650px;
+  display: flex;
+}
+.box13:hover {
+  background: rgba(125, 119, 119, 0.39);
 }
