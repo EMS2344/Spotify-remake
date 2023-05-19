@@ -75,6 +75,7 @@ body {
   border-radius: 5px;
   overflow-y: auto;
 }
+
 .circle {
   width: 30px;
   height: 30px;
@@ -531,5 +532,33 @@ body {
   display: flex;
 }
 .box13:hover {
+  background: rgba(125, 119, 119, 0.39);
+}
+.box15 {
+  width: 200px;
+  height: 290px;
+  background: rgba(125, 119, 119, 0.22);
+  border-radius: 5px;
+  position: relative;
+  left: 310px;
+  top: -368px;
+  display: flex;
+  box-sizing: border-box;
+  display: flex;
+}
+.box15:hover {
+  background: rgba(125, 119, 119, 0.39);
+}
+.box16 {
+  width: 200px;
+  height: 290px;
+  background: rgba(125, 119, 119, 0.22);
+  border-radius: 5px;
+  position: relative;
+  left: 580px;
+  top: -660px;
+  display: flex;
+}
+.box16:hover {
   background: rgba(125, 119, 119, 0.39);
 }
