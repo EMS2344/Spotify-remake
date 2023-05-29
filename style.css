@@ -509,56 +509,95 @@ body {
   top: 15px;
   left: 23px;
 }
-.box12 {
+
+.shows {
+  background-color: transparent;
+  height: 260px;
+  position: relative;
+  top: -50px;
+}
+.show2 {
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.show1 {
   width: 200px;
   height: 290px;
   background: rgba(125, 119, 119, 0.22);
   border-radius: 5px;
   position: relative;
-  left: 300px;
-  top: -365px;
+  left: 30px;
 }
-.box12:hover {
-  background: rgba(125, 119, 119, 0.39);
+.show4 {
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.box13 {
+.show3 {
   width: 200px;
   height: 290px;
   background: rgba(125, 119, 119, 0.22);
   border-radius: 5px;
   position: relative;
-  left: 580px;
-  top: -650px;
-  display: flex;
+  left: 295px;
+  top: -289px;
 }
-.box13:hover {
-  background: rgba(125, 119, 119, 0.39);
-}
-.box15 {
+.show5 {
   width: 200px;
   height: 290px;
   background: rgba(125, 119, 119, 0.22);
   border-radius: 5px;
   position: relative;
-  left: 310px;
-  top: -368px;
-  display: flex;
-  box-sizing: border-box;
-  display: flex;
+  left: 550px;
+  top: -580px;
 }
-.box15:hover {
-  background: rgba(125, 119, 119, 0.39);
-}
-.box16 {
-  width: 200px;
-  height: 290px;
-  background: rgba(125, 119, 119, 0.22);
-  border-radius: 5px;
+.name2 {
+  font-family: var(--main-font);
+  font-size: 18px;
   position: relative;
-  left: 580px;
-  top: -660px;
-  display: flex;
+  top: 40px;
+  left: 18px;
 }
-.box16:hover {
-  background: rgba(125, 119, 119, 0.39);
+.name3 {
+  font-family: var(--main-font);
+  font-size: 10px;
+  position: relative;
+  top: 50px;
+  left: 18px;
+  color: rgba(125, 119, 119, 0.5);
+}
+.mode {
+  color: white;
+  position: relative;
+  top: -2000px;
+  left: 400px;
+}
+
+.dark {
+  background-color: #dad7cd;
+  color: #e6e6e6;
+}
+.blue {
+  background-color: #3a5a40;
+}
+.red {
+  background: #3a5a40;
+  color: black;
+}
+.red1 {
+  color: black;
+}
+.red2 {
+  background: linear-gradient(180deg, rgba(58, 90, 64, 1) 12%, rgba(120, 153, 129, 1) 54%);
 }
