@@ -568,6 +568,7 @@ body {
   position: relative;
   top: 40px;
   left: 18px;
+  color: white;
 }
 .name3 {
   font-family: var(--main-font);
@@ -579,25 +580,33 @@ body {
 }
 .mode {
   color: white;
-  position: relative;
-  top: -2000px;
-  left: 400px;
+  position: fixed;
+  top: 15px;
+  left: 900px;
+  cursor: pointer;
+  font-size: 20px;
+  overflow: hidden;
+  font-family: var(--main-font);
+}
+.mode1 {
+  color: black;
 }
 
 .dark {
-  background-color: #dad7cd;
-  color: #e6e6e6;
+  background-color: #d5d0cd;
 }
-.blue {
-  background-color: #3a5a40;
+.boxone {
+  background-color: #9a998c;
 }
-.red {
-  background: #3a5a40;
+.boxtwo {
+  background-color: #9a998c;
+}
+.boxfour {
+  background-color: #9a998c;
+}
+.boxfive {
+  background: linear-gradient(180deg, rgba(182, 181, 165, 1) 12%, rgba(154, 153, 140, 1) 50%);
+}
+.nameone {
   color: black;
-}
-.red1 {
-  color: black;
-}
-.red2 {
-  background: linear-gradient(180deg, rgba(58, 90, 64, 1) 12%, rgba(120, 153, 129, 1) 54%);
 }

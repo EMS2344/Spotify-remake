@@ -1,19 +1,68 @@
 $(".change").on("click", function () {
   if ($("body").hasClass("dark")) {
     $("body").removeClass("dark");
-    $(".box1").removeClass("blue");
-    $(".box2").removeClass("red");
-    $(".box4").removeClass("red2");
-
-    $(".name1").removeClass("red1");
+    $(".box1").removeClass("boxone");
+    $(".box2").removeClass("boxtwo");
+    $(".box10").removeClass("boxfour");
+    $(".box3").removeClass("boxfour");
+    $(".minibox").removeClass("boxfour");
+    $(".box11").removeClass("boxfour");
+    $(".box4").removeClass("boxfive");
+    $(".name1").removeClass("nameone");
+    $(".name2").removeClass("nameone");
+    $(".name3").removeClass("nameone");
+    $(".desc").removeClass("nameone");
+    $(".mode").removeClass("mode1");
+    $(".circle4").removeClass("nameone");
+    $(".msg").removeClass("nameone");
+    $(".wel").removeClass("nameone");
+    $(".user1").removeClass("nameone");
+    $(".song2").removeClass("nameone");
+    $(".song1").removeClass("nameone");
+    $(".song").removeClass("nameone");
+    $(".album").removeClass("nameone");
+    $(".album1").removeClass("nameone");
+    $(".album2").removeClass("nameone");
+    $(".fri").removeClass("nameone");
+    $(".dsc").removeClass("nameone");
+    $(".dsc1").removeClass("nameone");
+    $(".dsc2").removeClass("nameone");
+    $(".dsc3").removeClass("nameone");
+    $(".msg1").removeClass("nameone");
+    $(".arrow2").removeClass("nameone");
 
     $(".change").text("OFF");
   } else {
     $("body").addClass("dark");
-    $(".box1").addClass("blue");
-    $(".box2").addClass("red");
-    $(".box4").addClass("red2");
-    $(".name1").addClass("red1");
+    $(".box1").addClass("boxone");
+    $(".box2").addClass("boxtwo");
+    $(".box10").addClass("boxfour");
+    $(".box3").addClass("boxfour");
+    $(".minibox").addClass("boxfour");
+    $(".box11").addClass("boxfour");
+    $(".box4").addClass("boxfive");
+    $(".name1").addClass("nameone");
+    $(".name2").addClass("nameone");
+    $(".name3").addClass("nameone");
+    $(".desc").addClass("nameone");
+    $(".circle4").addClass("nameone");
+    $(".mode").addClass("mode1");
+    $(".msg").addClass("nameone");
+    $(".wel").addClass("nameone");
+    $(".user1").addClass("nameone");
+    $(".song2").addClass("nameone");
+    $(".song1").addClass("nameone");
+    $(".song").addClass("nameone");
+    $(".album").addClass("nameone");
+    $(".album1").addClass("nameone");
+    $(".album2").addClass("nameone");
+    $(".fri").addClass("nameone");
+    $(".dsc").addClass("nameone");
+    $(".dsc1").addClass("nameone");
+    $(".dsc2").addClass("nameone");
+    $(".dsc3").addClass("nameone");
+    $(".msg1").addClass("nameone");
+    $(".arrow2").addClass("nameone");
 
     $(".change").text("ON");
   }
