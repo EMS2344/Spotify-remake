@@ -610,3 +610,77 @@ body {
 .nameone {
   color: black;
 }
+.play12 {
+  background-color: #d5d0cd;
+}
+.play {
+  height: 70px;
+  position: relative;
+  top: -1476px;
+  width: 1485px;
+}
+.playimg {
+  width: 60px;
+  position: relative;
+  left: 10px;
+  border-radius: 5px;
+}
+.playsong {
+  color: white;
+  position: relative;
+  top: -40px;
+  font-family: var(--main-font);
+  font-size: 15px;
+  text-decoration: none;
+  left: 30px;
+}
+.playsong:hover {
+  text-decoration: underline;
+}
+.play13 {
+  color: black;
+}
+
+.playsong1 {
+  color: gray;
+  position: relative;
+  top: -50px;
+  font-family: var(--main-font);
+  font-size: 10px;
+  text-decoration: none;
+  left: 103px;
+}
+.playsong1:hover {
+  text-decoration: underline;
+}
+.playsong2 {
+  color: rgb(106, 151, 106);
+  position: relative;
+  top: -100px;
+  font-family: var(--main-font);
+  font-size: 30px;
+  text-decoration: none;
+  left: 220px;
+}
+.songline {
+  background-color: rgba(125, 119, 119, 0.22);
+  height: 5px;
+  width: 510px;
+  border-radius: 5px;
+  position: relative;
+  top: -40px;
+  left: 300px;
+}
+.play14 {
+  background-color: black;
+}
+.time {
+  position: relative;
+  top: -55px;
+  color: white;
+  font-size: 15px;
+  left: 250px;
+}
+.time1 {
+  color: black;
+}

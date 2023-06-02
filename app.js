@@ -30,6 +30,10 @@ $(".change").on("click", function () {
     $(".dsc3").removeClass("nameone");
     $(".msg1").removeClass("nameone");
     $(".arrow2").removeClass("nameone");
+    $(".play").removeClass("play12");
+    $(".playsong").removeClass("play13");
+    $(".songline").removeClass("play14");
+    $(".time").removeClass("time1");
 
     $(".change").text("OFF");
   } else {
@@ -63,6 +67,10 @@ $(".change").on("click", function () {
     $(".dsc3").addClass("nameone");
     $(".msg1").addClass("nameone");
     $(".arrow2").addClass("nameone");
+    $(".play").addClass("play12");
+    $(".playsong").addClass("play13");
+    $(".songline").addClass("play14");
+    $(".time").addClass("time1");
 
     $(".change").text("ON");
   }
