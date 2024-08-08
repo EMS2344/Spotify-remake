@@ -1,6 +1,6 @@
 
 <h1>Spotfy (Remake)</h1>
-Introduction
+<b></b>Introduction</b>
 Welcome to "Spotfy," my recreation of the Spotify interface with my unique twist. This project focuses on the visual design of Spotify and includes dark and light mode functionality, built using HTML, CSS, and JavaScript.
 
 Features
